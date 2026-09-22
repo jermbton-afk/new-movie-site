@@ -1,6 +1,6 @@
-// Footer.jsx
+
 import React from 'react';
-import './Footer.css'; // Import the CSS file for styling
+import './Footer.css'; 
 
 const Footer = () => {
     return (
@@ -16,7 +16,6 @@ const Footer = () => {
                     <li><a href="#contact">Contact</a></li>
                 </ul>
                 <div className="footer__socials">
-                    {/* Add your social media links here */}
                     <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>
                     <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a>
                 </div>

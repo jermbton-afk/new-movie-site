@@ -26,7 +26,7 @@ const MovieDetails = () => {
     fetchMovieDetails();
   }, [id]);
 
-  if (!movie) return <div>Loading...</div>; // Show loading state while fetching data
+  if (!movie) return <div>Loading...</div>; 
 
   return (
     <>
