@@ -1,0 +1,48 @@
+
+* {
+  padding: 0;
+}
+
+#landing {
+  background-color: #333;
+}
+
+a {
+  text-decoration: none;
+}
+
+.footer {
+    background-color: #333; 
+    color: white; 
+    padding: 20px;
+    text-align: center; 
+}
+
+.footer__container {
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
+.footer__logo--img {
+  font-weight: 800;
+  color: white;
+  font-size: 40px;
+}
+
+.footer__links li a {
+  color: white;
+}
+
+.footer__links {
+    list-style-type: none; 
+}
+
+.footer__links li {
+    display: inline; 
+    margin: 0 15px; 
+}
+
+.footer__socials a {
+    margin: 0 10px; 
+    color: white; 
+}
