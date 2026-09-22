@@ -27,7 +27,7 @@ export default function Home() {
   }
 
   const handleSearch = async (e) => {
-    e.preventDefault(); // Prevent form submission
+    e.preventDefault();
     if (searchTerm.trim()) {
       try {
         const { data } = await axios.get(

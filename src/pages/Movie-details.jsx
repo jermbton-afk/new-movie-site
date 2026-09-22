@@ -2,12 +2,12 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
-import "./Movie-details.css"; // Ensure this path is correct
+import "./Movie-details.css"; 
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
 const MovieDetails = () => {
-  const { id } = useParams(); // Get the movie ID from the URL
+  const { id } = useParams(); 
   const [movie, setMovie] = useState(null);
   const API_KEY = "7fcbec3";
 
